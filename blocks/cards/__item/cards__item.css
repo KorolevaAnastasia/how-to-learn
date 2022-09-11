@@ -1,0 +1,12 @@
+.cards__item{
+  width: 240px; /**в задании не указан размер карточки (взяла 160px image + 80px left/right отступы)*/
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px 0 0;
+  box-sizing: border-box;
+}
+
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}
+
