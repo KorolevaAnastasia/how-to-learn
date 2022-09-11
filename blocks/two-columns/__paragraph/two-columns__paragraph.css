@@ -5,6 +5,13 @@
   font-weight: normal;
 }
 
+.two-columns__paragraph:nth-child(2){
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/**не подходит для повторного использования в другом блоке*/
+/*
 .two-columns__paragraph:first-child{
   margin-bottom: 30px;
 }
@@ -12,3 +19,4 @@
 .two-columns__paragraph:last-child{
   margin-top: 30px;
 }
+*/
