@@ -17,20 +17,13 @@ ________________________________
 Переоформление файловой структуры проекта по правилам Nested БЭМ.
 ####
 Изменена структура импорта стилей:
-```
-//удален style.css
-//перенесен normalize.css в папку vendor
-//создан index.css в папке pages
+```html
+удален style.css
+перенесен normalize.css в папку vendor
+создан index.css в папке pages
 
-//все подключения стилей осуществляются в файле index.css
-@import url(../blocks/header/header.css);
-
-//все вложенные стили подключаются внутри основного
-@import url(../../blocks/header/__link/header__link.css);
-@import url(../../blocks/header/__title/header__title.css);
-@import url(../../blocks/header/__subtitle/header__subtitle.css);
-@import url(../../blocks/header/__main-illustration/header__main-illustration.css);
-@import url(../../blocks/header/__square-pic/header__square-pic.css);
+все подключения стилей осуществляются в файле index.css
+<link rel="stylesheet" href="./pages/index.css">
 ```
 
 <a name="Tехнологии"></a>
