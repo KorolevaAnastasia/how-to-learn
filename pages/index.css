@@ -9,7 +9,7 @@
 @import url(../blocks/header/header.css);
 /**content*/
 @import url(../blocks/content/content.css);
-/**two-columns(description)*/
+/**description*/
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 /**techniques*/
@@ -21,7 +21,7 @@
 @import url(../blocks/oakley/oakley.css);
 /**feynman*/
 @import url(../blocks/feynman/feynman.css);
-/**table(digits)*/
+/**digits*/
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/section-title/section-title.css);
