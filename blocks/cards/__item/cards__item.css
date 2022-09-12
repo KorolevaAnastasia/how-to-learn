@@ -1,5 +1,5 @@
 .cards__item{
-  width: 240px; /**в задании не указан размер карточки (взяла 160px image + 80px left/right отступы)*/
+  width: calc(40px + 160px + 40px);
   display: flex;
   flex-direction: column;
   margin: 0 100px 0 0;
