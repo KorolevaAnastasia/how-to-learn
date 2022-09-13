@@ -6,6 +6,6 @@
   }
 }
 
-.rotation-pic{
+.rotation{
   animation: rotation 20s linear infinite;
 }
